@@ -1,0 +1,3 @@
+[submodule "ext/graphql-voyager"]
+	path = ext/graphql-voyager
+	url = git@github.com:APIs-guru/graphql-voyager.git
