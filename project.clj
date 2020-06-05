@@ -1,4 +1,4 @@
-(defproject threatgrid/ring-graphql-voyager "0.1.1-SNAPSHOT"
+(defproject threatgrid/ring-graphql-voyager "0.1.1"
   :description "GraphQL Voyager for Ring apps"
   :url "https://github.com/threatgrid/ring-graphql-voyager"
   :license {:name "Eclipse Public License"
