@@ -8,8 +8,8 @@
              :target-path "target/resources/graphql-voyager"
              :skip-stencil [ #".*" ]
              :includes [#"ext/graphql-voyager/dist/.*"
-                        #".*react\.min\.js"
-                        #".*react-dom\.min.js"
+                        #".*react/umd/react\.production\.min\.js"
+                        #".*react-dom/umd/react-dom\.production\.min\.js"
                         #"resources/graphql-voyager/index\.html"]}
   :resource-paths ["target/resources"]
   :hooks [leiningen.resource]

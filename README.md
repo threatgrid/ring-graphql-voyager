@@ -23,7 +23,7 @@ pushd ext/graphiql-voyager
 git fetch
 git checkout <new tag>
 npm install
-npm run build:release
+npm run build:release # do not pay attention if it reports an error. Make sure dist/voyager.min.js and dist/voyager.css are generated
 popd
 git add ext/graphql-voyager # Update submodule to point into new graphql-voyager
 vim project.clj README.md # Edit version
